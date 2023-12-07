@@ -7,6 +7,21 @@
 
 import Foundation
 
+//Универсальные функции сложения, вычитания, умножения и деления (перегрузка функций)
+func calcNumbers(summand1: Decimal, summand2: Decimal) -> Decimal {
+    return summand1 + summand2
+}
+func calcNumbers(diminutive: Decimal, deductible: Decimal) -> Decimal {
+    return diminutive - deductible
+}
+func calcNumbers(multiplier1: Decimal, multiplier2: Decimal) -> Decimal {
+    return multiplier1 * multiplier2
+}
+func calcNumbers(divisible: Decimal, divider: Decimal) -> Decimal {
+    return divisible / divider
+}
+//var result = calcNumbers(divisible: 7, divider: 3)
+
 //Сумма цифр четырехзначного числа
 func digitSum(number: Int) -> Int {
     var b = number, sum = 0
@@ -57,3 +72,6 @@ func brokeApp2() -> Void {
 func powerByNumber(baseNumber: Decimal, powerNumber: Int = 1) -> Decimal {
     return pow(baseNumber, powerNumber)
 }
+
+var tupleArray: Array<(Decimal, String)> = [(1, "x"), (4, "y"), (6, "a"), (9, "u"), (5, "k")]
+
