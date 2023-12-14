@@ -43,6 +43,10 @@
 		8369EC602B18DE080078EE2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8369EC5E2B18DE080078EE2A /* LaunchScreen.storyboard */; };
 		83A02F6E2B22473500623A2F /* HomeWork_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A02F6D2B22473500623A2F /* HomeWork_4.swift */; };
 		83BC23632B28ACDC00344550 /* HomeWork_5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BC23622B28ACDC00344550 /* HomeWork_5.swift */; };
+		83BD96972B2B441E00614EE5 /* Sudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BD96962B2B441E00614EE5 /* Sudent.swift */; };
+		83BD969C2B2B72BF00614EE5 /* Teacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BD969B2B2B72BF00614EE5 /* Teacher.swift */; };
+		83BD969E2B2B72E500614EE5 /* Index.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BD969D2B2B72E500614EE5 /* Index.swift */; };
+		83BD96A02B2B735600614EE5 /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BD969F2B2B735600614EE5 /* Subject.swift */; };
 		83F35FC32B20E3D6009B8BF2 /* HomeWork_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F35FC22B20E3D6009B8BF2 /* HomeWork_1.swift */; };
 /* End PBXBuildFile section */
 
@@ -85,6 +89,10 @@
 		8369EC612B18DE080078EE2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83A02F6D2B22473500623A2F /* HomeWork_4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWork_4.swift; sourceTree = "<group>"; };
 		83BC23622B28ACDC00344550 /* HomeWork_5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWork_5.swift; sourceTree = "<group>"; };
+		83BD96962B2B441E00614EE5 /* Sudent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sudent.swift; sourceTree = "<group>"; };
+		83BD969B2B2B72BF00614EE5 /* Teacher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teacher.swift; sourceTree = "<group>"; };
+		83BD969D2B2B72E500614EE5 /* Index.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Index.swift; sourceTree = "<group>"; };
+		83BD969F2B2B735600614EE5 /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
 		83F35FC22B20E3D6009B8BF2 /* HomeWork_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWork_1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -140,6 +148,7 @@
 				8308F2942B20A4B6002CB9A2 /* HomeWork_3.swift */,
 				83A02F6D2B22473500623A2F /* HomeWork_4.swift */,
 				83BC23622B28ACDC00344550 /* HomeWork_5.swift */,
+				83BD96982B2B44B000614EE5 /* HomeWork_7 */,
 				8369EC522B18DE070078EE2A /* Lessons 1, 2 */,
 				8369EC512B18DE070078EE2A /* Products */,
 			);
@@ -166,6 +175,17 @@
 				8369EC612B18DE080078EE2A /* Info.plist */,
 			);
 			path = "Lessons 1, 2";
+			sourceTree = "<group>";
+		};
+		83BD96982B2B44B000614EE5 /* HomeWork_7 */ = {
+			isa = PBXGroup;
+			children = (
+				83BD96962B2B441E00614EE5 /* Sudent.swift */,
+				83BD969B2B2B72BF00614EE5 /* Teacher.swift */,
+				83BD969D2B2B72E500614EE5 /* Index.swift */,
+				83BD969F2B2B735600614EE5 /* Subject.swift */,
+			);
+			path = HomeWork_7;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +263,11 @@
 				8369EC582B18DE070078EE2A /* ViewController.swift in Sources */,
 				831221D92B222A2600B6B7CC /* Bird.swift in Sources */,
 				831221E22B222A2600B6B7CC /* FinalClass.swift in Sources */,
+				83BD96972B2B441E00614EE5 /* Sudent.swift in Sources */,
 				8308F2952B20A4B6002CB9A2 /* HomeWork_3.swift in Sources */,
 				831221E32B222A2600B6B7CC /* CalendarEvent.swift in Sources */,
 				831221E92B222A2600B6B7CC /* VideoPlayer.swift in Sources */,
+				83BD96A02B2B735600614EE5 /* Subject.swift in Sources */,
 				831221E52B222A2600B6B7CC /* ErrorHandler.swift in Sources */,
 				831221E82B222A2600B6B7CC /* ResponseDecoder.swift in Sources */,
 				83BC23632B28ACDC00344550 /* HomeWork_5.swift in Sources */,
@@ -262,6 +284,7 @@
 				831221DA2B222A2600B6B7CC /* EncryptionManager.swift in Sources */,
 				831221DB2B222A2600B6B7CC /* BankAccount.swift in Sources */,
 				831221D02B222A2600B6B7CC /* Car.swift in Sources */,
+				83BD969C2B2B72BF00614EE5 /* Teacher.swift in Sources */,
 				8369EC542B18DE070078EE2A /* AppDelegate.swift in Sources */,
 				831221DE2B222A2600B6B7CC /* RecoverableErrorUseCase.swift in Sources */,
 				831221DC2B222A2600B6B7CC /* AuthStrategy.swift in Sources */,
@@ -269,6 +292,7 @@
 				831221D12B222A2600B6B7CC /* Request.swift in Sources */,
 				83F35FC32B20E3D6009B8BF2 /* HomeWork_1.swift in Sources */,
 				8369EC562B18DE070078EE2A /* SceneDelegate.swift in Sources */,
+				83BD969E2B2B72E500614EE5 /* Index.swift in Sources */,
 				83A02F6E2B22473500623A2F /* HomeWork_4.swift in Sources */,
 				831221E12B222A2600B6B7CC /* Skeleton.swift in Sources */,
 				831221D32B222A2600B6B7CC /* Presentable.swift in Sources */,
